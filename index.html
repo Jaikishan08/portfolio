@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="profile-card.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="https://i.pinimg.com/originals/60/04/30/600430c1d22c731b94cf4e7dae6b398a.gif" alt="Loading..." />
+    </div>
+  </div>
+
+  <canvas id="splashCanvas" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;"></canvas>
+
+  <!-- Scroll Up Button -->
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">My<span>Portfolio</span></a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <div class="menu-btn"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, my name is</div>
+        <div class="text-2">Jaikishan</div>
+        <div class="text-3">And I'm an Aspiring <span class="typing"></span></div>
+        <a href="#contact">Hire me</a>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- About Section -->  
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About me</h2>
+      <div class="about-content">
+         <!-- Profile Card Integration -->
+   <div class="left">
+    <div class="max-width">
+      <div id="profile-card-wrapper"></div>
+    </div>
+    </div>
+       <!-- Text Content Column -->
+       <div class="right">
+        <div class="text">I'm Kishan and I'm a <span class="typing-2"></span></div>
+        <p>
+          A passionate learner at the intersection of creativity and technology, I’m currently pursuing a BSc in Computer Science with a focus on Artificial Intelligence at MRCAS.
+          With a foundation in graphic design, I’ve spent years honing my skills in visual storytelling and digital design.
+          <br><br>
+          Aspiring and dedicated student with a strong academic foundation in Computer Science (Artificial Intelligence) and hands-on experience through a real-time internship project. Successfully developed a responsive website for NewGen Dental Clinic, Chennai, during my internship at V7lancers Technopark Pvt. Ltd.
+          Skilled in both frontend and backend development using HTML, CSS, JavaScript, Bootstrap, and C/C++. Known for being responsible, detail-oriented, and always eager to learn and grow in the tech field.
+          <br><br>
+          I’m actively building a portfolio that showcases my design work and evolving AI projects. It’s a window into my world—where creativity meets cutting-edge technology.
+        </p>
+        <a href="Jk resume .pdf" download target="_blank">Download Résumé</a>
+      </div>
+
+    </div>
+  </div>
+</section> 
+        
+
+  <!-- Services Section -->
+<section class="services" id="services">
+  <div class="max-width">
+    <h2 class="title">My services</h2>
+    <div class="serv-content">
+      <div class="card animated-card">
+        <div class="box">
+          <i class="fas fa-code"></i>
+          <div class="text">Web Development</div>
+          <p>Building responsive websites using modern technologies.</p>
+        </div>
+      </div>
+
+      <div class="card animated-card">
+        <div class="box">
+          <i class="fas fa-paint-brush"></i>
+          <div class="text">Graphic Design</div>
+          <p>Creating Designs with great passion and creativity</p>
+        </div>
+      </div>
+
+      <div class="card animated-card">
+        <div class="box">
+          <i class="fas fa-mobile-alt"></i>
+          <div class="text">APP Development </div>
+          <p>Crafting seamless digital experiences through innovative app solutions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">My creative skills & experiences.</div>
+          <p>I possess strong creative and technical skills in front-end and back-end web development. I have hands-on experience in building responsive and visually engaging websites using HTML, CSS, JavaScript, and Bootstrap. My solid foundation in C and C++ has strengthened my problem-solving abilities and programming logic. I’m also well-versed in using Git for version control, allowing smooth collaboration and efficient project management. With Node.js and Python, I can develop server-side applications and handle backend logic seamlessly. Additionally, I have experience managing and structuring databases using MySQL for efficient data storage and retrieval. My diverse skill set helps me approach development with a full-stack perspective and a creative mindset.</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="column right">
+          <div class="bars">
+            <div class="info"><span>Graphic Design</span><span>90%</span></div>
+            <div class="line python"></div>
+          </div>
+          <div class="bars">
+            <div class="info"><span>Python</span><span>80%</span></div>
+            <div class="line html"></div>
+          </div>
+          <div class="bars">
+            <div class="info"><span>CSS</span><span>60%</span></div>
+            <div class="line css"></div>
+          </div>
+          <div class="bars">
+            <div class="info"><span>GitHub</span><span>50%</span></div>
+            <div class="line js"></div>
+          </div>
+          <div class="bars">
+            <div class="info"><span>Java Script</span><span>60%</span></div>
+            <div class="line bootstraps"></div>
+          </div>
+          <div class="bars">
+            <div class="info"><span>HTML</span><span>70%</span></div>
+            <div class="line django"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="certifications" id="certifications">
+    <div class="max-width">
+      <h2 class="title">Certifications</h2>
+      <div class="certifications-content">
+        <div class="cert-card" style="--content:'Graphic Design Diploma';">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Agile Methodology</h3>
+          <p>Completed at Microsoft Learn with skills .</p>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="cert-card" style="--content:'App Development (PyGame)';">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>App Development</h3>
+          <p>Developed mini games using Python's PyGame framework with GUI logic.</p>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="cert-card" style="--content:'AutoCAD Certification';">
+          <i class="fas fa-drafting-compass"></i>
+          <h3>AutoCAD Certification</h3>
+          <p>Certified in 2D/3D drawing and industrial blueprints using AutoCAD.</p>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="cert-card" style="--content:'Web Technologies';">
+          <i class="fas fa-code"></i>
+          <h3>Web Technologies</h3>
+          <p>Certified in HTML, Java, and PHP from Bharathidasan University.</p>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="cert-card" style="--content:'ChatGPT for everyone';">
+          <i class="fas fa-robot"></i>
+          <h3>ChatGPT for everyone</h3>
+          <p>Completed OpenAI’s course to understand prompt engineering, use-cases, and ethical AI interactions.</p>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="cert-card" style="--content:'Introduction to cybersecurity';">
+          <i class="fa-solid fa-shield-alt"></i>
+          <h3>Introduction to cybersecurity</h3>
+          <p>Learned the foundations of digital security, threat detection, and safe online practices from infosys springboard.</p>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Hobbies Section -->
+<section class="hobbies" id="hobbies">
+  <div class="max-width">
+    <h2 class="title">
+      My Hobbies
+      <span class="subtitle">What I Enjoy</span>
+    </h2>
+
+    <!-- Hobby Cards Wrapper -->
+    <div class="hobby-wrapper">
+
+      <!-- Hobby 1: Repairings -->
+      <div class="card hobby-card fade-in-right">
+        <div class="box">
+          <button class="glow-on-hover hobby-btn" type="button">1. Repairings</button>
+          <p>From an early age,I discovered a fascination with taking things apart and putting them back together,driven by curiosity about how they function.At 12,I embarked on my first project,repairing my grandfather’s vintage radio—a moment that sparked a lifelong passion for hands-on problem-solving.This curiosity led me to tackle a variety of devices over the years,including calculators,trimmers, callus removers,and headphones.Each repair became an opportunity to explore the unique materials and innovative designs that power everyday technology,deepening my understanding and love for the mechanics of the world around me.</p>
+        </div>
+      </div>
+
+      <!-- Hobby 2: Designings -->
+      <div style="margin-bottom: 60px;"></div>
+      <div class="card hobby-card fade-in-left">
+        <div class="box">
+          <button class="glow-on-hover hobby-btn" type="button">2. Designings</button>
+          <p>I am deeply passionate about graphic design,a journey that has led to successful placements at Elysium,Creative Studio,and Aptean Company.My creativity is boundless,constantly driving me to explore new ideas and techniques that push the limits of traditional design.I view my mind as a vibrant creative realm,where diving into innovative concepts can yield extraordinary results.I am particularly excited about the potential of integrating artificial intelligence into graphic design, as I believe that combining technology with artistic expression can unlock new dimensions of creativity and revolutionize the industry.I strive to create designs that not only captivate but also resonate on a deeper level,reflecting a harmonious blend of imagination and cutting-edge technology.</p>
+            <!-- DESIGNING GALLERY SECTION WITH SPACING -->
+  <div class="designing-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 40px auto;">
+    <img src="1.jpg" alt="Design 1" style="width: 130%; height: 710px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+    <img src="2.jpg" alt="Design 2" style="width: 130%; height: 710px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+    <img src="3.jpg" alt="Design 3" style="width: 130%; height: 710px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+    <img src="4.jpg" alt="Design 4" style="width: 130%; height: 710px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+    <img src="5.jpg" alt="Design 5" style="width: 130%; height: 710px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+    <img src="6.jpg" alt="Design 6" style="width: 130%; height: 710px; object-fit: cover; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+  </div>
+        </div>
+      </div>
+
+      <!-- Hobby 3: Gymnasium -->
+      <div style="margin-bottom: 60px;"></div>
+      <div class="card hobby-card fade-in-right">
+        <div class="box">
+          <button class="glow-on-hover hobby-btn" type="button">3. Gymnasium</button>
+          <p>Working out at the gym is more than not just a routine for me—it’s a way of life.I’m driven by the desire to build a strong and healthy physique,but the benefits go far beyond the physical.Each session challenges me mentally and helps me cultivate boldness,resilience,and unwavering determination.Pushing my limits in the gym translates into other aspects of my life,fueling my confidence and making me more steadfast in pursuing my goals.It’s a space where I can channel my energy,clear my mind,and emerge stronger.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="max-width">
+      <h2 class="title">Projects</h2>
+      <div class="carousel">
+        <div class="card">
+          <div class="box">
+            <img src="icon1.png" alt="" />
+            <div class="text">AI Powered Taskmanager</div>
+            <p>Smart web app using ML to predict deadlines, with Flask, MongoDB, and JWT-based secure authentication.
+
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="icon2.png" alt="" />
+            <div class="text">Dental Clinic Website</div>
+            <p> Responsive and professionally designed website for a real client, built with HTML, CSS, and JavaScript</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="icon3.png" alt="" />
+            <div class="text">Weather Forecast App</div>
+            <p>Cross-platform Flutter app showing real-time weather with smooth UI, API integration, and offline caching.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Get in Touch</div>
+          <p>Feel free to reach out for collaborations or just a friendly hello 👋.</p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Jaikishan</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Madurai,Tamilnadu</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">vmjaikishan@gmail.com</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fab fa-github"></i>
+              <div class="info">
+                <div class="head">GitHub</div>
+                <div class="sub-title">
+                  <a href="https://github.com/Jaikishan08" target="_blank">Click me to view profile!</a>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+              <i class="fab fa-linkedin"></i>
+              <div class="info">
+                <div class="head">LinkedIn Profile</div>
+                <div class="sub-title">
+                  <a href="https://www.linkedin.com/in/jaikishan-v-m-aa26822b5/" target="_blank">Click me to view profile!</a>
+                </div>
+              </div>
+            </div>   
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">Message me</div>
+          <form action="#">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Name" required />
+              </div>
+              <div class="field email">
+                <input type="email" placeholder="Email" required />
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Subject" required />
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+            </div>
+            <div class="button-area">
+              <button type="submit">Send message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span>Created By Jaikishan | © 2025 All rights reserved.</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous"></script>
+  <script src="profile-card.js"></script>
+
+  <script>
+    // Loader
+    setTimeout(() => {
+      document.querySelector('.loader_bg').style.display = 'none';
+    }, 1500);
+
+    // Scroll Button
+    const scrollUpBtn = document.querySelector(".scroll-up-btn");
+    window.onscroll = () => {
+      scrollUpBtn.classList.toggle("show", window.scrollY > 500);
+    };
+    scrollUpBtn.onclick = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+    // Navbar Toggle
+    const menuBtn = document.querySelector(".menu-btn");
+    const menu = document.querySelector(".menu");
+    menuBtn.onclick = () => {
+      menu.classList.toggle("active");
+    };
+
+    // Typing animations
+    new Typed(".typing", {
+      strings: ["Data Scientist", "Graphic Designer", "Web Developer", "Artist", "Financial Analyst"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
+    });
+
+    new Typed(".typing-2", {
+      strings: ["Problem Solver", "Tech learner", "Programmer", "Creative Thinker", "Tech Enthusiast"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
+    });
+  </script>
+</body>
+</html>
